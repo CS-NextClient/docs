@@ -1,0 +1,8 @@
+.main-wrapper {
+	align-items: center;
+
+	& > * {
+		width: 100%;
+		max-width: $content-max-width;
+	}
+}

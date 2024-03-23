@@ -1,0 +1,8 @@
+div[class^="docsWrapper"] {
+
+	div[class^="docRoot"] {
+		gap: 1rem;
+	}
+
+	--doc-sidebar-width: 16rem;
+}

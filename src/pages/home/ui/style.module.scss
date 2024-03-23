@@ -1,0 +1,55 @@
+@import '../../../shared/assets/styles/responsive.scss';
+
+.circle {
+	display: block;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 1000px;
+    background: #1468be6e;
+	opacity: 0.5;
+    z-index: -1;
+    position: fixed;
+	line-height: 1.5;
+
+    animation: 15s ease-in-out infinite alternate anim-circle;
+
+	&:global.left {
+		left: -30rem;
+		top: calc(-70rem + 20vw);
+		background: #19aeff6e;
+	}
+
+	&:global.right {
+		top: 30rem;
+		right: -30rem;
+	}
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	margin: auto;
+	margin-top: 10rem;
+	max-width: 50rem;
+	padding: 2rem;
+
+	:global .desc {
+		max-width: 30rem;
+		margin: auto;
+		margin-bottom: 1.5rem;
+	}
+
+	@include if-is-phone() {
+		margin-top: 5rem
+	}
+}
+
+@keyframes anim-circle {
+	from {
+		transform: scale(1.5);
+	}
+
+	to {
+		transform: scale(1.25);
+	}
+}

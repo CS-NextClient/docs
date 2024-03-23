@@ -1,0 +1,7 @@
+$small: 350px;
+
+@mixin if-is-phone() {
+	@media only screen and (max-width: $small) {
+		@content;
+	}
+}

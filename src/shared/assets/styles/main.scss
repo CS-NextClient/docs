@@ -1,0 +1,21 @@
+@import 'const.scss';
+@import 'responsive.scss';
+@import 'ifm.scss';
+@import 'navbar.scss';
+@import 'main-wrapper.scss';
+@import 'docs.scss';
+@import 'prism.scss';
+
+body {
+	overflow-y: scroll !important;
+}
+
+svg.external-link {
+	height: 2em;
+    width: 1.5em;
+    vertical-align: middle;
+
+	& ~ span {
+		margin-left: 0.5em
+	}
+}

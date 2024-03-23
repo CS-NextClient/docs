@@ -1,0 +1,5 @@
+label: JS API
+position: 2
+link:
+    type: generated-index
+    description: API для взаимодействия с клиентом из внутриигрового браузера через JavaScript

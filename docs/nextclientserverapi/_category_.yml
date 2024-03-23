@@ -1,0 +1,5 @@
+label: Server API
+position: 1
+link:
+    type: generated-index
+    description: Мощное API для игровых серверов на базе AmxModX и ReHLDS на языке Pawn

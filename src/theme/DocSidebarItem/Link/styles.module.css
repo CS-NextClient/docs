@@ -1,0 +1,10 @@
+.menuExternalLink {
+	align-items: center;
+}
+
+.menu__list-item_text {
+	max-width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

@@ -1,0 +1,6 @@
+label: Гайды
+position: 1
+link:
+    type: generated-index
+customProps:
+    description: Подробные гайды по использованию API
